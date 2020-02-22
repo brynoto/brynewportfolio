@@ -326,4 +326,10 @@ main {
     grid-template-areas: 'cert-1' 'cert-2' 'cert-3' 'cert-4' 'cert-5' 'cert-6' 'cert-7' 'cert-8';
     grid-template-columns: 1fr; }
   #about .bio p {
+    font-size: 1rem; }
+  #contact h1 {
+    font-size: 2.5rem; }
+  #contact .boxes span {
+    font-size: 1.5rem; }
+  .boxes p {
     font-size: 1rem; } }
