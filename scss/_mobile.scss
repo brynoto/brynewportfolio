@@ -14,6 +14,7 @@
 
 //Tablets & Small Laptops
 @include mediaMd {
+    
     main {
         align-items: center;
         text-align: center;
@@ -63,10 +64,39 @@
 
         grid-template-columns: 1fr;
     }
+    
 
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    //certificates
+
+    main #certificate {
+        align-items: center;
+        text-align: center;
+
+        .lg-heading {
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+    }
+    .certificates {
+        float: none;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        grid-template-areas:
+        'cert-1'
+        'cert-2'
+        'cert-3'
+        'cert-4';
+     
+        grid-template-columns: 1fr;
+    }
+
+   
 }
 
 //Smartphones
@@ -77,5 +107,43 @@
 
     .projects {
         grid-template-columns: 1fr;
+    }
+
+    .about-info {
+        grid-template-areas:
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+
+        grid-template-columns: 1fr;
+    }
+    
+
+    //certificates
+
+    #certificate h1{ 
+        font-size: 3rem;
+   
+    }
+    .certificates {
+        float: none;
+        grid-template-areas:
+        'cert-1'
+        'cert-2'
+        'cert-3'
+        'cert-4'
+        'cert-5'
+        'cert-6'
+        'cert-7'
+        'cert-8';
+     
+        grid-template-columns: 1fr;
+    }
+
+    #about .bio p {
+        font-size: 1rem;
+        
     }
 }
